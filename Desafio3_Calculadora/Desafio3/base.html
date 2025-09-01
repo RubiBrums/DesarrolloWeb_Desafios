@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 1 - JavaScript</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="card">
+            <div class="img-card"></div>
+            <h6>The Feat of Pip - PC Edition</h6>
+            <p>Precio base: $<span class="precio-inicial"></span> </p>
+
+            <p>Cantidad:
+
+                <span class="cantidad">0</span>
+                <button onclick="
+                cantidadP = document.querySelector('.cantidad')
+                cantidadN = Number(cantidadP.innerHTML)
+                cantidadN = cantidadN + 1
+                cantidadP.innerHTML = cantidadN 
+                document.querySelector('.valor-total').innerHTML =cantidadN* 3550
+                ">+</button>
+
+                <button onclick="
+                cantidadP = document.querySelector('.cantidad')
+                cantidadR = Number(cantidadP.innerHTML)
+                if(cantidadR > 0) { 
+                    cantidadR = cantidadR - 1
+                    cantidadP.innerHTML = cantidadR
+                    document.querySelector('.valor-total').innerHTML =cantidadR* 3550
+                }
+                ">-</button>
+            </p>
+        </div>
+
+        </div>
+    </section>
+
+    <div class="total-section">
+        <p>Total a pagar: $<span class="valor-total"></span> </p>
+    </div>
+
+    <script src="index.js">
+    </script>
+</body>
+
+</html>

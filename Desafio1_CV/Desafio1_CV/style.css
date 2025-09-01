@@ -1,0 +1,39 @@
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+#nombre{
+    font-size: xx-large;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.headers{
+    font-size: large;
+    font-weight: bold;
+}
+
+textarea{
+    font-size: x-large;
+}
+#desc{
+    max-width: 50%;
+    text-align: justify;
+}
+
+.lista{
+    max-width: 50%;
+    text-align: justify;
+}
+
+.texto{
+    max-width: 50%;
+    text-align: justify;
+}
+
+#imagen1{
+    width: 20% ;
+}
