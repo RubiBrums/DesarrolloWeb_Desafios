@@ -1,4 +1,14 @@
-img{
-    width: 500px;
-    height: 800px;
+#logo {
+    margin-left: 20px;
+    margin-bottom: 18px;
+    margin-top: 19px;
+    height: 25px;
+    width: 86px;
+}
+
+#logo2 {
+    margin-bottom: 18px;
+    margin-top: 19px;
+    height: 25px;
+    width: 86px;
 }
